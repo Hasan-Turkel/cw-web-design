@@ -82,3 +82,39 @@ footer{
 footer img{
     width: 200px;
 }
+
+/*! about us page css starts from here */
+footer.about{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+main.about{
+    background-image: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: start;
+    padding: 2rem;
+    font-size: 0.8rem;
+    gap: 3rem;
+}
+main.about div.about{
+    width: 70%;
+   
+    
+   
+}
+main.about div.what{
+    width: 30%;
+    background-color:  rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+    color: white;
+
+}
+main.about div.about p.pSecond{
+    background-color:  rgba(0, 0, 0, 0.7);
+    padding: 0.5rem;
+    color: white;
+}
